@@ -35,4 +35,9 @@ public class ListaTrabajador implements Lista<TrabajadorSocial>{
         }
         return false;
     }
+    public void showTrabajadores() {
+        for (TrabajadorSocial t : trabajadores) {
+            System.out.println(t);
+        }
+    }
 }
